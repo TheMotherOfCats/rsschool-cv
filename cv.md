@@ -2,6 +2,7 @@
 
 ### Contacts:
 * **tel.:** +7(707)199-81-21
+* **e-mail:** zikliza@gmail.com
 * **github:** [TheMotherOfCats](https://github.com/TheMotherOfCats)
 * **discord:** TheMotherOfCats
 
