@@ -1,0 +1,175 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth; 
+}
+
+header,
+footer {
+	background-color: #7a8f6c;
+	max-width: 100%;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #fff;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-family: 'Nanum Gothic', sans-serif;
+	background-color: #fff;
+	margin: 0px;
+	padding: 0px;
+	max-width: 100%;
+}
+
+.nav-list{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav-item {
+  	padding: 0 20px;
+  	line-height: 50px;
+  	list-style: none;
+}
+
+.a{
+	text-decoration: none;
+	font-size: 20px;
+  	color: #fff;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	min-height: 50px;
+}
+
+.cv {
+	background-color: #ffecca;
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	margin: 0px auto;
+	color: #356e27;
+  }
+
+.left-side{
+	background: #e8c1a2;
+	width: 370px;
+	height: auto;
+	}
+
+.img{
+	width: 370px;
+	height: 344px;
+}
+
+.contacts__list {
+	list-style: none;
+	margin: 20px 0px 20px 0px;
+	font-size: 18px;
+}
+
+.left-title{
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin:  20px 0px 20px 25px;
+}
+
+.skills__list {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	margin: 20px 0px 20px 0px;
+	font-size: 18px;
+}
+
+.skills-item {
+	padding: 0px 20px;
+	line-height: 30px;
+}
+.project__img{
+	text-align: center;
+}
+
+.right-side{
+	background-color:#ffecca;
+}
+
+.main-title{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.main-title__content{
+	margin: 102px 0px 102px 90px;
+	padding: 0;
+	font-size: 55px;
+	line-height: 70px;
+	letter-spacing: 10px;
+	color: #356e27;
+}
+
+.right-title{
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin: 20px 0px 20px 90px;
+}
+.about-myself {
+	padding: 0;
+	margin-bottom: 0px;
+  }
+
+.about-myself__description {
+	margin: 20px 60px 20px 60px;
+	padding: 0;
+	font-size: 18px;
+	line-height: 1.5;
+  }
+
+  pre{
+	  font-size: 18px;
+  }
+
+  .education__p{
+	  margin: 20px 60px 20px 60px;
+	  padding: 0;
+	  font-size: 18px;
+	  line-height: 1.5;
+  }
+.language__content{
+	margin: 20px 0px 20px 0px;
+}
+  .language__p{
+	margin: 0px 60px 0px 60px;
+	padding: 0;
+	font-size: 18px;
+	line-height: 1.5;
+  }
+
+  .footer__content{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px 0 10px;
+    color: #fff;
+	font-size: 18px;
+  }
